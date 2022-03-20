@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "732160640187",
+    "project_id": "debugsoft-c5027",
+    "storage_bucket": "debugsoft-c5027.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732160640187:android:4ccc7abd139d5c51e6159e",
+        "android_client_info": {
+          "package_name": "com.example.debugsoft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732160640187-p4bde96vicuj8c4sfbpttdosltujdse8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSqKRPawCWOCC8OtrSUKgwq0NRLbFbgYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732160640187-p4bde96vicuj8c4sfbpttdosltujdse8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
