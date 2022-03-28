@@ -67,8 +67,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
         .createUserWithEmailAndPassword(
       email: emailController.text.trim(),
       password: passwordController.text.trim(),
-    )
-        .then((auth) {
+    ).then((auth) {
       currentUser = auth.user;
     }).catchError((error) {
       Navigator.pop(context);

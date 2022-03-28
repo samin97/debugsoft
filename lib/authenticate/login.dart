@@ -77,12 +77,12 @@ class _LogInScreenState extends State<LogInScreen> {
         .doc(currentUser.uid)
         .get()
         .then((snapshot) async {
-      await sharedPreferences!
-          .setString("SellerUID", snapshot.data()!["SellerUID"]);
-      await sharedPreferences!
-          .setString("email", snapshot.data()!["sellerEmail"]);
-      await sharedPreferences!
-          .setString("name", snapshot.data()!["sellerName"]);
+      await sharedPreferences
+          ?.setString("UID", snapshot.data()!["userID"]);
+      await sharedPreferences
+          ?.setString("email", snapshot.data()!["userEmail"]);
+      await sharedPreferences
+          ?.setString("name", snapshot.data()!["userName"]);
     });
   }
 
